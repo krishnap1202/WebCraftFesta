@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Portal - Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Employee Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attendance.html">Attendance</a></li>
+        <li><a href="health.html">Health Records</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-container">
+    <h2>Attendance</h2>
+    <form id="attendanceForm">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="timeIn">Time In:</label>
+      <input type="time" id="timeIn" name="timeIn" required><br><br>
+
+      <label for="timeOut">Time Out:</label>
+      <input type="time" id="timeOut" name="timeOut" required><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Employee Portal</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
